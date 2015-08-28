@@ -9,7 +9,21 @@
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
         <link rel="stylesheet" href="css/bootstrap.css">
+        <style type="text/css">
 
+        .inDiv{
+            /*height: 400px;*/
+            padding: 0 0 0 0;
+            margin: 0 0 0 0;
+        }
+
+        .inDivM{
+            height: 400px;
+            padding: 0 0 0 0;
+            margin: 0 0 0 0;
+        }
+
+        </style>
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
 
@@ -22,20 +36,36 @@
     
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-2 col-sm-3 hidden-xs" >
-                <div class="media" style="background-color:green;">
+                <div class="col-md-2 col-sm-3 hidden-xs inDiv" >
+                <div class="media inDivM" style="background-color:green;">
                 <a href="#">
                     <img src="img/maison.png" alt="logo">
                 </a>
                 </div>
                 </div>
 
-                <div class="col-md-10 col-sm-9 col-xs-12" style="background-color:yellow;">
+                <div class="col-md-10 col-sm-9 col-xs-12 inDiv" style="background-color:yellow;">
                 <h1>Maison de l'architecte</h1>
                 </div>
             </div>
+            <div class="row row-eq-height inDiv">
+                <div class="col-md-4 inDiv col-eq-height" style="background-color: red;color:white;">Un nouveau texte ici
+                </div>
+                <div class="col-md-8 inDiv col-eq-height" style="background-color: maroon;color: yellow;">Un nouveau texte ici --porcelain
+                Embrassons-nous, Folleville ! Lors de l’université d’été du Medef sur le Campus d’HEC à Jouy-en-Josas, jeudi 27 août, le mouvement patronal et tous les acteurs de l’enseignement supérieur français ont officialisé la signature d’un « pacte d’engagements pour le supérieur » prévoyant des actions communes et une promotion réciproque. Ce compagnonnage est une première, car il rassemble à la fois la Conférence des présidents d’université (CPU), la Conférence des écoles françaises d’ingénieurs (Cdefi) et la Conférence des grandes écoles (CGE). Cette coopération vise d’abord à mieux accorder les compétences qu’attendent les entreprises des étudiants et à améliorer les possibilités professionnelles de ces derniers.
+
+                Deux jours plus tôt, lors de l’ouverture des journées « enseignants-entreprises » à l’Ecole polytechnique, le secrétaire d’Etat à l’enseignement supérieur, Thierry Mandon, qualifiait de « salutaire » le rapprochement en cours entre les mondes de l’entreprise et du supérieur. Sa solidité reste encore à démontrer. Au contraire de l’Allemagne ou des Etats-Unis, les liens sont historiquement très ténus en France entre le monde de l’entreprise et celui de l’enseignement et de la recherche. Le financement du supérieur par le secteur privé reste très faible. A l’heure où les universités traversent une grave crise de financement et où les diplômés sont parfois en peine de débouchés, le secteur privé peut apparaître comme un recours précieux. Ce rapprochement avait déjà été espéré lors de la discussion sur l’autonomie des universités mise en place en 2010…...
+                </div>
+            </div>
+            <div class="row inDiv">
+                <div class="col-md-4 inDiv" style="background-color: red;color:white;">Un nouveau texte ici
+                </div>
+                <div class="col-md-8 inDiv" style="background-color: maroon;color: yellow;">Un nouveau texte ici --porcelain
+                Embrassons-nous, Folleville ! Lors de l’université d’été du Medef sur le Campus d’HEC à Jouy-en-Josas, jeudi 27 août, le mouvement patronal et tous les acteurs de l’enseignement supérieur français ont officialisé la signature d’un « pacte d’engagements pour le supérieur » prévoyant des actions communes et une promotion réciproque. Ce compagnonnage est une première, car il rassemble à la fois la Conférence des présidents d’université (CPU), la Conférence des écoles françaises d’ingénieurs (Cdefi) et la Conférence des grandes écoles (CGE). Cette coopération vise d’abord à mieux accorder les compétences qu’attendent les entreprises des étudiants et à améliorer les possibilités professionnelles de ces derniers.
+
+                Deux jours plus tôt, lors de l’ouverture des journées « enseignants-entreprises » à l’Ecole polytechnique, le secrétaire d’Etat à l’enseignement supérieur, Thierry Mandon, qualifiait de « salutaire » le rapprochement en cours entre les mondes de l’entreprise et du supérieur. Sa solidité reste encore à démontrer. Au contraire de l’Allemagne ou des Etats-Unis, les liens sont historiquement très ténus en France entre le monde de l’entreprise et celui de l’enseignement et de la recherche. Le financement du supérieur par le secteur privé reste très faible. A l’heure où les universités traversent une grave crise de financement et où les diplômés sont parfois en peine de débouchés, le secteur privé peut apparaître comme un recours précieux. Ce rapprochement avait déjà été espéré lors de la discussion sur l’autonomie des universités mise en place en 2010…...
+            </div>
         </div>
-        
         <script src="https//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
         <script src="js/bootstrap.min.js"></script>
