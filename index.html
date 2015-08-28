@@ -11,10 +11,12 @@
         <link rel="stylesheet" href="css/bootstrap.css">
         <style type="text/css">
 
-        .body{
-            padding: 0 0 0 0;
-            margin: 0 0 0 0;            
-        }
+        /*Declaration des classes pour supprimer toutes marges*/
+
+        /*Une autre possibilite est de donner une hauteur fixe : il est possible d'indiquer par exemple height: 400px*/
+
+        /*On a ici une ajustement automatique des hauteurs des lignes de grid : cela se fait grace a un script situe dans main.js
+        */
 
         .inDiv{
             /*height: 400px;*/
@@ -34,10 +36,6 @@
 
 
     <body>
-        <!--[if lt IE 8]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-
     
         <div class="container-fluid">
             <div class="row">
@@ -54,6 +52,8 @@
                 </div>
             </div>
             <div class="row">
+            <!-- l'ajout de la balise avec class="row" ci-dessus permet de supprimer les marges. Si on met la declaration de row avec les autres classes
+            une marge apparait que l'on ne peut pas supprimer -->
             <div class="row-eq-height inDiv">
                 <div class="col-md-4 inDiv col-eq-height" style="background-color: red;color:white;">Un nouveau texte ici
                 </div>
@@ -64,8 +64,9 @@
                 </div>
             </div>
             </div>
+            <!-- Exemple lorsque la ligne est declare avec une autre classe : une mare apparait -->
             <div class="row inDiv">
-                <div class="col-md-4 inDiv" style="background-color: red;color:white;">Un nouveau texte ici
+                <div class="col-md-4 inDiv" style="background-color: blue;color:white;">Un nouveau texte ici
                 </div>
                 <div class="col-md-8 inDiv" style="background-color: maroon;color: yellow;">Un nouveau texte ici --porcelain
                 Embrassons-nous, Folleville ! Lors de l’université d’été du Medef sur le Campus d’HEC à Jouy-en-Josas, jeudi 27 août, le mouvement patronal et tous les acteurs de l’enseignement supérieur français ont officialisé la signature d’un « pacte d’engagements pour le supérieur » prévoyant des actions communes et une promotion réciproque. Ce compagnonnage est une première, car il rassemble à la fois la Conférence des présidents d’université (CPU), la Conférence des écoles françaises d’ingénieurs (Cdefi) et la Conférence des grandes écoles (CGE). Cette coopération vise d’abord à mieux accorder les compétences qu’attendent les entreprises des étudiants et à améliorer les possibilités professionnelles de ces derniers.
