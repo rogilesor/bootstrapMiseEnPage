@@ -121,23 +121,14 @@
   	}
 
   	/* Styles pour les écrans moyens et grands */
-  	@media (min-width: 992px) {
-    
-/*    .row{
-    overflow: hidden; 
-    }
-
-    [class*="col-"]{
-        margin-bottom: -99999px;
-        padding-bottom: 99999px;
-    }*/
+  	
+    @media (min-width: 992px) {
 
     #side1 {
       padding: 0 0 10px 10px;
     }
 
     #side2 {
-      /*padding: 0 0 0px 10px;*/
       margin: 0 0 0 0;
       vertical-align: bottom;
     }
@@ -147,12 +138,12 @@
     }
 
     .vcolorL {
-        background-color: green;
+        background-color: none;
         padding-bottom: 0;
     }
 
     .vcolorR {
-        background-color: red;
+        background-color: none;
     }
   	}
  
@@ -182,7 +173,7 @@
 
         <div class="row">
     	<div class="row-eq-height full-width">
-    		<div class="col-md-8 col-sm-12 col-eq-height vcolorL inDiv">
+    		<div class="col-md-8 col-sm-12 col-eq-height inDiv">
         	        <div class="media inDiv">
                     <div class="image inDiv">
         	        <a href="#"><img id="left" class="img-responsive inDiv" src="img/city1.jpg" alt="Nos réalisations"></a>
@@ -191,17 +182,17 @@
     		</div>
 
 
-    		<div class="col-md-4 col-sm-12 col-eq-height vcolorR inDiv">
+    		<div class="col-md-4 col-sm-12 col-eq-height inDiv">
             <div class="row">
-             	<div class="inDiv" style="background-color: white;">
-        			<div class="col-md-12 col-sm-6 col-xs-12 inDiv" style="background-color:yellow">
-        				<div class="media inDiv" style="background-color:black;">
+             	<div class="inDiv">
+        			<div class="col-md-12 col-sm-6 col-xs-12 inDiv">
+        				<div class="media inDiv" >
         				<a href="#"><img id="side1" class="img-responsive inDiv" src="img/side1.jpg" alt="Nos projets"></a>
         				</div>
         		    </div>
     			
         			<div class="col-md-12 col-sm-6 col-xs-12 inDiv">
-    					<div class="media inDiv" style="vertical-align: bottom; background-color:maroon;">
+    					<div class="media inDiv" style="vertical-align: bottom;">
     					<a href="#"><img id="side2" class="img-responsive inDiv" src="img/side2.jpg" alt="Notre ambition"></a>
     					</div>
         			</div>
